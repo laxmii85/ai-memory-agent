@@ -1,0 +1,36 @@
+{
+  "memories": [
+    "User loves Italian food",
+    "User allergic to peanuts",
+    "User lives in Mumbai",
+    "User vegetarian",
+    "User planning trip to Japan",
+    "User works as data scientist",
+    "User has a dog named Bruno",
+    "User likes morning workouts",
+    "User birthday is May 3",
+    "User prefers coffee over tea"
+  ],
+  "queries": [
+    {
+      "query": "Suggest dinner",
+      "expected": "User allergic to peanuts"
+    },
+    {
+      "query": "Which cuisine should I eat?",
+      "expected": "User loves Italian food"
+    },
+    {
+      "query": "Where do I live?",
+      "expected": "User lives in Mumbai"
+    },
+    {
+      "query": "Do I eat meat?",
+      "expected": "User vegetarian"
+    },
+    {
+      "query": "Where am I planning to travel?",
+      "expected": "User planning trip to Japan"
+    }
+  ]
+}
